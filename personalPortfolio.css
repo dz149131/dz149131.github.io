@@ -1,6 +1,7 @@
 /* ___________NAVBAR___________ */
 * {
     box-sizing: border-box;
+    /* box-sizing: inherit; */
 }
 
 body {
@@ -51,6 +52,8 @@ body {
 
 .navbar-links li a:hover {
     color: white;
+    border-bottom: #ffb703 1px solid;
+    transition: .3s ease-in;
 }
 
 .navbar-links li a {
@@ -114,6 +117,11 @@ body {
 
 /* ___________BODY___________ */
 
+#container {
+    max-width: calc(100% - 2em);
+    margin: 0;
+}
+
 #main section {
     display: flex;
     justify-content: center;
@@ -150,14 +158,14 @@ body {
     font-size: 1.5em;
     font-weight: 400;
     display: inline-block;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.7);
     padding-bottom: 15px;
 }
 
 #main section {
     margin-right: 10em;
     margin-left: 10em;
-    background-color: rgba(71, 71, 71, 0.9);
+    background-color: rgba(71, 71, 71, 0.7);
     display: block;
     border-radius: 10px;
     border-bottom: 1px rgb(124, 123, 123) solid;

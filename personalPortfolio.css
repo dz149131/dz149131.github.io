@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #63748b;
+    background-image: linear-gradient(to right, #332e70, #4d5d72, #332e70);
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
@@ -40,6 +40,11 @@ body {
     padding: 8px 16px;
     letter-spacing: .15em;
 }
+.brand-title a:hover {
+    border-bottom: #219ebc 1px solid;
+    transition: .3s ease-in;
+}
+
 .navbar-links ul {
     margin: 0;
     padding: 0;
@@ -165,7 +170,7 @@ body {
 #main section {
     margin-right: 10em;
     margin-left: 10em;
-    background-color: rgba(71, 71, 71, 0.7);
+    background-image: linear-gradient(to right, #474747b3, rgb(55, 67, 85), #474747b3);
     display: block;
     border-radius: 10px;
     border-bottom: 1px rgb(124, 123, 123) solid;

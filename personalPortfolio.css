@@ -287,31 +287,37 @@ body {
     align-items: center;
     justify-content: center;
     border-radius: .5em;
-    border: rgb(19, 47, 170) 1px solid;
 }
 
 .skills-item-container {
-    padding: .5em;
+    display: flex;
+    justify-content: space-between;
 }
 
 .skills-column {
-    padding: .5em;
-    margin: 0 0.5em;
-    border: 1px red solid;
+    padding: .25em;
+    margin: 0 0.25em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .skills-item {
     background: #1a1a1a96;
-    border-radius: .5em;
+    border-radius: .25em;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     font-family: Montserrat;
+    margin: 1em;
+    padding: .5em;
 }
 
 .skills-item img {
-    transform: scale(0.35);
+    transform: scale(.8);
+    width: 50px;
+    height: 50px;
 }
 
 /* ___________CONTACT___________ */

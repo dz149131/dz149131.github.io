@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: #778da9;
+    background-color: #63748b;
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
@@ -142,7 +142,7 @@ body {
     color: #d9d9d9;
 }
 
-/*___________Main Content 1___________ */
+/*___________Wrapper , TITLE___________ */
 
 #main section h2 {
     color: white;
@@ -159,18 +159,16 @@ body {
     margin-left: 10em;
     background-color: rgba(71, 71, 71, 0.9);
     display: block;
-    border-radius: 15px;
+    border-radius: 10px;
+    border-bottom: 1px rgb(124, 123, 123) solid;
 }
-/* PROJECTS */
-header .projects-header h2 {
-    display: block;
-}
+
 /*___________ CONTENT CARD ___________*/
 
 .content {
     display: flex;
     background-color: rgba(255, 255, 255, 0.10);
-    height: 30em;
+    height: 100%;
     padding: 3em;
     margin: 1em 1em 3em 1em;
     color: rgb(255, 255, 255);
@@ -180,7 +178,52 @@ header .projects-header h2 {
     block-size: fit-content;
 }
 
+/* ___________PROJECTS ___________*/
+
+#projects .content {
+    display: flex;
+    flex-direction: row;
+}
+
+#projects .project-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    text-align: center;
+    padding: 1em 1em;
+}
+#projects .project-title {
+    margin: 0em 0em 1em 0em;
+}
+
+#projects .tech-and-button a {
+    text-decoration: none;
+    color: white;
+    padding: .5em 1em;
+    border-radius: 10px;
+    border: 1px solid #219ebc;
+    background: none;
+    text-decoration: none;
+    font-weight: bold;
+}
+#projects .tech-and-button a:hover{
+    color: black;
+    background-color: #ffb703;
+    transition: .2s all ease;
+}
+
+.img-wrapper {
+    margin: auto;
+    padding: 1em;
+}
+.img-wrapper img {
+    max-width:100%;
+    max-height:100%;
+}
+
 /* ___________ABOUT ME___________ */
+
 .content-container {
     display: flex;
     flex-direction: column;
@@ -254,7 +297,9 @@ header .projects-header h2 {
 .skills-item img {
     transform: scale(0.35);
 }
+
 /* ___________CONTACT___________ */
+
 .contact-title {
 
 }

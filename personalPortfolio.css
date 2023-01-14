@@ -225,6 +225,9 @@ body {
     background-color: #ffb703;
     transition: .2s all ease;
 }
+#demo-button {
+    margin-top: 2em;
+}
 
 .img-wrapper {
     margin: auto;

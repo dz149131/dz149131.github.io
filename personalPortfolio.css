@@ -199,6 +199,7 @@ body {
     border-radius: 6px;
     box-shadow: 0 25px 45px rgb(0 0 0 / 10%);
     block-size: fit-content;
+    justify-content: space-evenly;
 }
 
 /* ___________PROJECTS ___________*/

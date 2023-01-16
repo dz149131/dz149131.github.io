@@ -137,7 +137,6 @@ body {
     }
 }
 
-
 #main section {
     display: flex;
     justify-content: center;
@@ -219,6 +218,9 @@ body {
 }
 #projects .project-title {
     margin: 0em 0em 1em 0em;
+}
+#projects .project-text {
+    text-align: start;
 }
 
 #projects .tech-and-button a {

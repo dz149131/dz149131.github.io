@@ -27,7 +27,8 @@ background.style.animation = "move-background 20s linear infinite";
 function copyEmail() {
     const email = "dz149131@gmail.com";
     navigator.clipboard.writeText(email).then (function () {
-        alert("Email address copied to clipboard.");
+        alert
+        ("Email address copied to clipboard.");
     }, function(err) {
         console.error("Failed to copy email:", err)
     });

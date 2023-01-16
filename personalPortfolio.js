@@ -18,3 +18,7 @@ function changeOpacity() {
 }
 
 window.addEventListener('scroll', changeOpacity);
+
+//Background Move
+var background = document.getElementById("container");
+background.style.animation = "move-background 20s linear infinite";

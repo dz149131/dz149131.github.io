@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: linear-gradient(to right, #332e70, #4d5d72, #332e70);
+    background-image: linear-gradient(to right, #332e70, #435164ef, #332e70);
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
@@ -123,9 +123,24 @@ body {
 /* ___________BODY___________ */
 
 #container {
-    max-width: calc(100% - 2em);
+    /* max-width: calc(100% - 2em);
+    margin: 0; */
+    width: 100vw;
+    height: 100vh;
     margin: 0;
+    background: black;
+    overflow: hidden;
+    background-image: url("https://img.freepik.com/premium-vector/space-background-with-stars-vector-illustration_97886-319.jpg");
 }
+@keyframes move-background {
+    from {
+    background-position: 0% 0%;
+    }
+    to {
+    background-position: 0% 100%;
+    }
+}
+
 
 #main section {
     display: flex;
@@ -139,10 +154,10 @@ body {
 }
 
 #header h1 {
-    font-size: 3.25em;
+    font-size: 3em;
     margin: 0 0 0.25em 0;
     font-weight: 400;
-    letter-spacing: .05em;
+    letter-spacing: .075em;
     color: #ffffff;
 }
 
@@ -152,7 +167,7 @@ body {
     margin-bottom: 1em;
     font-weight: 400;
     letter-spacing: -.05em;
-    color: #d9d9d9;
+    color: #cfcbcb;
 }
 
 /*___________Wrapper , TITLE___________ */
@@ -234,8 +249,7 @@ body {
     padding: 1em;
 }
 .img-wrapper img {
-    max-width:100%;
-    max-height:100%;
+    width: 100%;
 }
 
 /* ___________ABOUT ME___________ */

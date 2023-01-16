@@ -326,6 +326,24 @@ body {
     transition: .2s all ease;
 }
 
+#contact .emailButton {
+    text-decoration: none;
+    color: white;
+    padding: .5em 1em;
+    border-radius: 10px;
+    border: 1px solid #f5c64f;
+    background: none;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#contact .emailButton:hover {
+    color: rgb(0, 0, 0);
+    background-color: #f5c64f;
+    transition: .2s all ease;
+    cursor: pointer;
+}
+
 /* ___________FOOTER___________ */
 
 @media (max-width: 600px) {

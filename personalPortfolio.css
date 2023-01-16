@@ -343,6 +343,10 @@ body {
         align-items: flex-start;
     }
 
+    .brand-title a  {
+        display: block;
+    }
+
     .navbar-links ul {
         width: 100%;
         flex-direction: column;
@@ -359,6 +363,10 @@ body {
     .navbar-links.active {
         display: flex;
     }
+    
+    #main section {
+        padding: 10px;
+    }
 
 }
 
@@ -367,7 +375,6 @@ body {
         margin: 0;
     }
 }
-
 
 @media (max-width: 900px) {
     #main section {
@@ -394,20 +401,3 @@ body {
     }
 }
 
-    /* @media only screen and (max-width:500px) {
-    .navbar-links ul {
-        width: 100%;
-        position: absolute;
-        top: 75px;
-        right: 0;
-        z-index: 2;
-    }
-    .navbar-links ul li {
-        display: block;
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-    .toggle-button {
-        display: flex;
-    }
-} */

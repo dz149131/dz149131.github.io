@@ -393,6 +393,11 @@ body {
         display: flex;
         flex-direction: column;
     }
+    
+    #about .content {
+        display: flex;
+        flex-direction: row;
+    }
 }
 
 @media (max-width: 1500px) {

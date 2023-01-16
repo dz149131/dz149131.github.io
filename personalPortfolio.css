@@ -123,10 +123,6 @@ body {
 /* ___________BODY___________ */
 
 #container {
-    /* max-width: calc(100% - 2em);
-    margin: 0; */
-    width: 100vw;
-    height: 100vh;
     margin: 0;
     background: black;
     overflow: hidden;

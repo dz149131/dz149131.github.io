@@ -231,6 +231,7 @@ body {
 #projects .content {
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
 #projects .project-body {

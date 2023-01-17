@@ -142,7 +142,8 @@ body {
     justify-content: center;
 }
 
-/* Title Animation  */
+/*__________Title Animation __________*/
+
 #name-title::before, #name-title::after {
     content: '';
     padding: 25px;

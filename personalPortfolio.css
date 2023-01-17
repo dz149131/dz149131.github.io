@@ -1,7 +1,6 @@
 /* ___________NAVBAR___________ */
 * {
     box-sizing: border-box;
-    /* box-sizing: inherit; */
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
@@ -9,12 +8,10 @@
 
 body {
     background-image: linear-gradient(to right, #332e70, #435164ef, #332e70);
-    /* box-sizing: border-box; */
     box-sizing: inherit;
     width: 100%;
     height: 100%;
 }
-
     
 .navbar {
     position: fixed;
@@ -101,6 +98,7 @@ body {
     overflow: hidden;
     background-image: url("https://img.freepik.com/premium-vector/space-background-with-stars-vector-illustration_97886-319.jpg");
 }
+
 @keyframes move-background {
     from {
     background-position: 0% 0%;
@@ -115,12 +113,15 @@ body {
     justify-content: center;
     padding: 5em;
 }
+
 /*___________ MASCOT ___________*/
+
 .mascot-container {
     padding-left: 15%;
     position: absolute;
     top: 23.25%;
 }
+
 .mascot-container img {
     max-width: 15%;
     max-height: 15%;
@@ -240,9 +241,11 @@ body {
     text-align: center;
     padding: 1em 1em;
 }
+
 #projects .project-title {
     margin: 0em 0em 1em 0em;
 }
+
 #projects .project-text {
     text-align: start;
 }
@@ -291,6 +294,7 @@ body {
     align-items: center;
     display: block;
 }
+
 .resume-button {
     background: none;
     color: #7ef1c5;
@@ -303,6 +307,7 @@ body {
     margin: 1em .5em;
     width: 35%;
 }
+
 .resume-button a {
     box-sizing: content-box;
 }
@@ -401,6 +406,7 @@ body {
 /* ___________FOOTER___________ */
 
 /* ____________ RESPONSIVE ____________ */
+
 @media (max-width: 600px) {
     .toggle-button {
         display: flex;

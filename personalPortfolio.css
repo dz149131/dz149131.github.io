@@ -207,7 +207,7 @@ body {
     background-image: linear-gradient(to right, #474747b3, rgb(55, 67, 85), #474747b3);
     display: block;
     border-radius: 10px;
-    border-bottom: 1px rgb(124, 123, 123) solid;
+    border-bottom: 1px  #424242 solid;
 }
 
 /*___________ CONTENT CARD ___________*/
@@ -456,11 +456,6 @@ body {
         top: 31.75%;
         margin-top: 1px;
     }
-
-    /* .mascot-container #eyes {
-        position: static;
-    } */
-
 }
 
 @media (max-width: 800px) {

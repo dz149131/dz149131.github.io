@@ -92,12 +92,11 @@ body {
     border-radius: 10px;
 }
 
-
-
 /* ___________BODY___________ */
 
 #container {
     margin: 0;
+    padding: 0;
     background: black;
     overflow: hidden;
     background-image: url("https://img.freepik.com/premium-vector/space-background-with-stars-vector-illustration_97886-319.jpg");
@@ -122,7 +121,6 @@ body {
 }
 
 #header p {
-    text-align: center;
     padding-top: 75px;
 }
 
@@ -138,8 +136,8 @@ body {
 
 #title {
     display: flex;
-    flex-direction: row;
     justify-content: center;
+    position: relative;
 }
 
 /*__________Title Animation __________*/
@@ -385,6 +383,7 @@ body {
 
 /* ___________FOOTER___________ */
 
+/* ____________ RESPONSIVE ____________ */
 @media (max-width: 600px) {
     .toggle-button {
         display: flex;
@@ -424,9 +423,10 @@ body {
     #main section {
         padding: 10px;
     }
-    /* #name-title::before, #name-title::after {
-        right: 90%;
-    } */
+
+    #header p {
+        padding-top: 150px;
+    }
 
 }
 
@@ -458,10 +458,6 @@ body {
         display: flex;
         flex-direction: row;
     }
-
-    /* #name-title::before, #name-title::after {
-        right: 68.5%;
-    } */
 }
 
 @media (max-width: 1500px) {

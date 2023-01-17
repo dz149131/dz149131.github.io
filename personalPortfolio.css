@@ -140,10 +140,12 @@ body {
     border: 5px #588157 solid;
     animation: spin 6s alternate infinite ease-in-out;
     position: absolute;
-    right: 64%;
+    right: 59.7%;
     bottom: 0%;
     top: 0%;
+    box-sizing: content-box;
 }
+
 @keyframes spin {
     100% {
         transform: translateX(50%) translateY(0%) rotate(360deg);
@@ -409,6 +411,9 @@ body {
     #main section {
         padding: 10px;
     }
+    #name-title::before, #name-title::after {
+        right: 90%;
+    }
 
 }
 
@@ -439,6 +444,10 @@ body {
     #about .content {
         display: flex;
         flex-direction: row;
+    }
+
+    #name-title::before, #name-title::after {
+        right: 68.5%;
     }
 }
 

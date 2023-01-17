@@ -128,6 +128,26 @@ body {
     font-weight: 400;
     letter-spacing: .075em;
     color: #ffffff;
+    position: relative;
+}
+
+#name-title::before, #name-title::after {
+    content: '';
+    padding: 25px;
+    transform: translateX(50%) translateY(0%) rotate(0);
+    display: block;
+    width: 35px;
+    border: 5px #588157 solid;
+    animation: spin 6s alternate infinite ease-in-out;
+    position: absolute;
+    right: 64%;
+    bottom: 0%;
+    top: 0%;
+}
+@keyframes spin {
+    100% {
+        transform: translateX(50%) translateY(0%) rotate(360deg);
+    }
 }
 
 #header p {
@@ -252,6 +272,9 @@ body {
     border-radius: 10px;
     font-family: Montserrat;
     margin: 1em .5em;
+}
+.resume-button a {
+    box-sizing: content-box;
 }
 .resume-button:hover {
     border-color: #7ef1c5;

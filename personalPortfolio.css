@@ -115,6 +115,22 @@ body {
     justify-content: center;
     padding: 5em;
 }
+/*___________ MASCOT ___________*/
+.mascot-container {
+    padding-left: 15%;
+    position: absolute;
+    top: 23.25%;
+}
+.mascot-container img {
+    max-width: 15%;
+    max-height: 15%;
+}
+
+#eyes img {
+    position: absolute;
+    max-width: 12%;
+    max-height: 12%;
+}
 
 #header {
     padding: 7em 5em 4em 5em;

@@ -285,6 +285,7 @@ body {
     border-radius: 10px;
     font-family: Montserrat;
     margin: 1em .5em;
+    width: 35%;
 }
 .resume-button a {
     box-sizing: content-box;
@@ -457,6 +458,9 @@ body {
     #about .content {
         display: flex;
         flex-direction: row;
+    }
+    .resume-button {
+        width: 55%;
     }
 }
 

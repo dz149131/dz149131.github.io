@@ -451,6 +451,16 @@ body {
         padding-top: 150px;
     }
 
+    .mascot-container {
+        padding-left: 20%;
+        top: 31.75%;
+        margin-top: 1px;
+    }
+
+    /* .mascot-container #eyes {
+        position: static;
+    } */
+
 }
 
 @media (max-width: 800px) {

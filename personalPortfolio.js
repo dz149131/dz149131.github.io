@@ -1,4 +1,4 @@
-//Nav Toggle Button
+//___________Nav Toggle Button___________
 const toggleButton = document.getElementsByClassName('toggle-button')[0]
 const navbarLinks = document.getElementsByClassName('navbar-links')[0]
 
@@ -6,7 +6,7 @@ toggleButton.addEventListener('click', () => {
     navbarLinks.classList.toggle('active')
 })
 
-//Onscroll Nav Opacity 
+//___________Onscroll Nav Opacity ___________
 function changeOpacity() {
     let scrollValue = window.scrollY;
     let navbar = document.getElementById('navbar');
@@ -19,11 +19,11 @@ function changeOpacity() {
 
 window.addEventListener('scroll', changeOpacity);
 
-//Background Move
+//___________Background Move___________
 var background = document.getElementById("container");
 background.style.animation = "move-background 20s linear infinite";
 
-//Email button
+//___________Email button___________
 function copyEmail() {
     const email = "dz149131@gmail.com";
     navigator.clipboard.writeText(email).then (function () {
@@ -33,7 +33,7 @@ function copyEmail() {
     });
 }
 
-//Mascot animation 
+//___________Mascot animation ___________
 document.addEventListener('mousemove', (e) => {
     // console.log(e)
 

@@ -406,6 +406,11 @@ body {
 /* ___________FOOTER___________ */
 
 /* ____________ RESPONSIVE ____________ */
+@media (max-width: 400px) {
+    .content {
+        padding: 5%;
+    }
+}
 
 @media (max-width: 600px) {
     .toggle-button {

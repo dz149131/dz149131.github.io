@@ -21,7 +21,7 @@ window.addEventListener('scroll', changeOpacity);
 
 //___________Background Move___________
 var background = document.getElementById("container");
-background.style.animation = "move-background 20s linear infinite";
+background.style.animation = "move-background 30s linear infinite";
 
 //___________Email button___________
 function copyEmail() {

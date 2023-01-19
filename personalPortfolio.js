@@ -66,7 +66,7 @@ function angle(cx, cy, ex, ey){
 // Canvas Background sizing
 // const canvas = document.querySelector("canvas");
 //     canvas.style.width = window.innerWidth;
-//     canvas.style.height = window.innerHeight;
+//     canvas.style.height = "3300px";
 
 // const windows = document.querySelector("window");
 // console.dir(window);

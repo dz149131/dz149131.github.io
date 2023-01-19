@@ -20,8 +20,8 @@ function changeOpacity() {
 window.addEventListener('scroll', changeOpacity);
 
 //___________Background Move___________
-var background = document.getElementById("container");
-background.style.animation = "move-background 30s linear infinite";
+// var background = document.getElementById("container");
+// background.style.animation = "move-background 30s linear infinite";
 
 //___________Email button___________
 function copyEmail() {
@@ -62,3 +62,11 @@ function angle(cx, cy, ex, ey){
     const deg = rad * 180 / Math.PI;
     return deg;
 }
+
+// Canvas Background sizing
+// const canvas = document.querySelector("canvas");
+//     canvas.style.width = window.innerWidth;
+//     canvas.style.height = window.innerHeight;
+
+// const windows = document.querySelector("window");
+// console.dir(window);

@@ -265,6 +265,7 @@ body::-webkit-scrollbar {
 
 #projects .project-text {
     text-align: start;
+    padding-top: 10px;
 }
 
 #projects .tech-and-button a {
